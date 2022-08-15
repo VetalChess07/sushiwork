@@ -1,0 +1,394 @@
+%text_1 {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #888888;
+}
+
+%text_2 {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+   color: #888888;
+}
+
+%text_3 {
+   max-width: 330px;
+   min-height: 75px;
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   /* or 26px */
+
+   text-align: center;
+
+   color: #888888;
+}
+
+%btn_start {
+   width: fit-content;
+   padding: 6px 6px 6px 19px;
+   background: #F16214;
+   border-radius: 54px;
+
+}
+
+
+
+%btn_start--text {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+   font-family: 'Product Sans'
+}
+
+%product__btn {
+
+
+
+
+   background: #F16214;
+   border-radius: 50px;
+}
+
+%product__btn--text {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 11px;
+   line-height: 13px;
+   color: #FFFFFF;
+}
+
+%star__text {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 11px;
+   line-height: 13px;
+
+   color: #000000;
+}
+
+%product__price--text {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+
+}
+
+%start__link {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+%footer__title {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 150%;
+   /* identical to box height, or 33px */
+
+
+   color: #000000;
+}
+
+%footer__text {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 200%;
+   /* or 32px */
+
+
+   color: #888888;
+}
+
+h6 {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+
+   color: #000000;
+   margin: 16px 0 6px 0;
+}
+
+
+h5 {
+   width: fit-content;
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   display: block;
+   color: #F16214;
+   margin: 0;
+}
+
+h4 {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #000000;
+}
+
+h3 {
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 32px;
+   /* identical to box height */
+
+
+   color: #000000;
+}
+
+h2 {
+
+   font-family: 'Product Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 49px;
+
+   color: #000000;
+}
+
+@media (max-width:980px) {
+
+
+   %text_1 {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 150%;
+      color: #888888;
+   }
+
+   %text_2 {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 16px;
+      color: #888888;
+   }
+
+   %text_3 {
+      max-width: 330px;
+      min-height: 75px;
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 160%;
+      /* or 26px */
+
+      text-align: center;
+
+      color: #888888;
+   }
+
+   %btn_start {
+      width: fit-content;
+      padding: 6px 6px 6px 19px;
+      background: #F16214;
+      border-radius: 54px;
+
+   }
+
+
+
+   %btn_start--text {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      color: #FFFFFF;
+      font-family: 'Product Sans'
+   }
+
+   %product__btn {
+
+
+
+
+      background: #F16214;
+      border-radius: 50px;
+   }
+
+   %product__btn--text {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 13px;
+      color: #FFFFFF;
+   }
+
+   %star__text {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 13px;
+
+      color: #000000;
+   }
+
+   %product__price--text {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+
+      color: #000000;
+
+   }
+
+   %start__link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   %footer__title {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+      /* identical to box height, or 33px */
+
+
+      color: #000000;
+   }
+
+   %footer__text {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 200%;
+      /* or 32px */
+
+
+      color: #888888;
+   }
+
+   h6 {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 19px;
+
+      color: #000000;
+      margin: 16px 0 6px 0;
+   }
+
+
+   h5 {
+      width: fit-content;
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 17px;
+      display: block;
+      color: #F16214;
+      margin: 0;
+
+   }
+
+   h4 {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+
+      color: #000000;
+   }
+
+   h3 {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height */
+
+
+      color: #000000;
+   }
+
+   h2 {
+
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 49px;
+
+      color: #000000;
+   }
+
+   h1 {
+      font-size: 60px !important;
+      line-height: normal !important;
+   }
+
+
+}
+
+@media (max-width:589px) {
+   h1 {
+      font-size: 40px !important;
+      line-height: normal !important;
+   }
+
+   h2 {
+
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: normal;
+
+      color: #000000;
+   }
+
+
+}
+
+@media (max-width:480px) {
+   h1 {
+      font-size: 30px !important;
+
+   }
+}
